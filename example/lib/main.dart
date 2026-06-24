@@ -13,21 +13,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Board DateTime Picker Example',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blue,
-          brightness: Brightness.light,
-        ),
+        brightness: Brightness.light,
         scaffoldBackgroundColor: const Color.fromARGB(255, 235, 235, 241),
-        useMaterial3: true,
+        useMaterial3: false,
         primaryColor: Colors.blue,
       ),
       darkTheme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blue,
-          brightness: Brightness.dark,
-        ),
+        brightness: Brightness.dark,
         scaffoldBackgroundColor: const Color.fromARGB(255, 18, 18, 18),
-        useMaterial3: true,
+        useMaterial3: false,
         primaryColor: Colors.blue,
       ),
       themeMode: ThemeMode.system,
