@@ -17,14 +17,18 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.blue,
           brightness: Brightness.light,
         ),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 235, 235, 241),
         useMaterial3: true,
+        primaryColor: Colors.blue,
       ),
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.blue,
           brightness: Brightness.dark,
         ),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 18, 18, 18),
         useMaterial3: true,
+        primaryColor: Colors.blue,
       ),
       themeMode: ThemeMode.system,
       home: const MySampleApp(),
